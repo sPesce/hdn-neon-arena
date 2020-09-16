@@ -1,6 +1,10 @@
-# hdn-neon-arena-v5
-## Hidden:Source map
-hdn-neon-arena-v5 Hidden:Source
+# hdn-neon-arena-v5 (Hidden:Source map)
+
+This is the final version of the first map I created for Hidden:Source
+The goal of this map was to make a map for phys-kills that could rival physics-arena
+Original map inspired from Phenom's CS:GO map gg_neon_lights
+Green/Blue glass squares are heavy, very easy to phys-kill with, good for inital learning but easy-mode for experienced players, funny to take out multiple players with
+
 multiple versions of hdn-neon-arena map and associated custom textures, models, etc.
 
 demo:
