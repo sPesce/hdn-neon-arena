@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\player\techknow\jacks\body"
+	"$bumpmap" "models\player\techknow\jacks\body_n"
+        "$nocull" 1
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "flesh"
+}

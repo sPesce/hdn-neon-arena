@@ -1,0 +1,268 @@
+
+
+
+materialPath: X:\Steam\steamapps\sourcemods\hidden\materials
+Loading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 64 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (234843 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1273 texinfos to 776
+Reduced 156 texdatas to 149 (7293 bytes to 7119)
+Writing x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.bsp
+reading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.prt
+ 474 portalclusters
+1355 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 949 visible clusters (0.00%)
+Total clusters visible: 149493
+Average clusters visible: 315
+Building PAS...
+Average clusters audible: 473
+visdatasize:59578  compressed from 60672
+writing x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.bsp
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[18 texlights parsed from 'lights.rad']
+
+Loading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.bsp
+3184 faces
+259324 square feet [37342776.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+3184 patches before subdivision
+38270 patches after subdivision
+3859 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6467750, max 1014
+transfer lists:  49.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2212, 21360, 19534)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(234, 1260, 843)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(75, 168, 58)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(32, 49, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(15, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0096 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+3105 of 3851 (80% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                562/8192         6744/98304    ( 6.9%) 
+brushsides            4919/65536       39352/524288   ( 7.5%) 
+planes                3382/65536       67640/1310720  ( 5.2%) 
+vertexes              6558/65536       78696/786432   (10.0%) 
+nodes                  987/65536       31584/2097152  ( 1.5%) 
+texinfos               776/12288       55872/884736   ( 6.3%) 
+texdata                149/2048         4768/65536    ( 7.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3184/65536      178304/3670016  ( 4.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2341/65536      131096/3670016  ( 3.6%) 
+leaves                1010/65536       32320/2097152  ( 1.5%) 
+leaffaces             3800/65536        7600/131072   ( 5.8%) 
+leafbrushes            889/65536        1778/131072   ( 1.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            25717/512000     102868/2048000  ( 5.0%) 
+edges                15175/256000      60700/1024000  ( 5.9%) 
+LDR worldlights       3859/8192       339592/720896   (47.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            307/32768        3070/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5739/65536       11478/131072   ( 8.8%) 
+cubemapsamples          54/1024          864/16384    ( 5.3%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     2219748/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       59578/16777216 ( 0.4%) 
+entdata               [variable]       68035/393216   (17.3%) 
+LDR leaf ambient      1010/65536       24240/1572864  ( 1.5%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      588702/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      234843/4194304  ( 5.6%) 
+==== Total Win32 BSP file data space used: 4359346 bytes ====
+
+Total triangle count: 9433
+Writing x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.bsp
+2 minutes, 21 seconds elapsed
+
+
+
+materialPath: X:\Steam\steamapps\sourcemods\hidden\materials
+Loading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 64 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.prt...done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (234843 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1273 texinfos to 776
+Reduced 156 texdatas to 149 (7293 bytes to 7119)
+Writing x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.bsp
+reading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.prt
+ 474 portalclusters
+1355 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 949 visible clusters (0.00%)
+Total clusters visible: 149493
+Average clusters visible: 315
+Building PAS...
+Average clusters audible: 473
+visdatasize:59578  compressed from 60672
+writing x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.bsp
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[18 texlights parsed from 'lights.rad']
+
+Loading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.bsp
+3184 faces
+259324 square feet [37342776.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+3184 patches before subdivision
+38270 patches after subdivision
+3859 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6467750, max 1014
+transfer lists:  49.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2212, 21360, 19534)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(234, 1260, 843)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(75, 168, 58)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(32, 49, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(15, 22, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(7, 11, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0100 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+3105 of 3851 (80% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/1024         1056/49152    ( 2.1%) 
+brushes                562/8192         6744/98304    ( 6.9%) 
+brushsides            4919/65536       39352/524288   ( 7.5%) 
+planes                3382/65536       67640/1310720  ( 5.2%) 
+vertexes              6558/65536       78696/786432   (10.0%) 
+nodes                  987/65536       31584/2097152  ( 1.5%) 
+texinfos               776/12288       55872/884736   ( 6.3%) 
+texdata                149/2048         4768/65536    ( 7.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3184/65536      178304/3670016  ( 4.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2341/65536      131096/3670016  ( 3.6%) 
+leaves                1010/65536       32320/2097152  ( 1.5%) 
+leaffaces             3800/65536        7600/131072   ( 5.8%) 
+leafbrushes            889/65536        1778/131072   ( 1.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            25717/512000     102868/2048000  ( 5.0%) 
+edges                15175/256000      60700/1024000  ( 5.9%) 
+LDR worldlights       3859/8192       339592/720896   (47.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            307/32768        3070/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5739/65536       11478/131072   ( 8.8%) 
+cubemapsamples          54/1024          864/16384    ( 5.3%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     2220232/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       59578/16777216 ( 0.4%) 
+entdata               [variable]       73237/393216   (18.6%) 
+LDR leaf ambient      1010/65536       24240/1572864  ( 1.5%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      588702/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      234843/4194304  ( 5.6%) 
+==== Total Win32 BSP file data space used: 4365032 bytes ====
+
+Total triangle count: 9433
+Writing x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_v_5.bsp
+2 minutes, 20 seconds elapsed

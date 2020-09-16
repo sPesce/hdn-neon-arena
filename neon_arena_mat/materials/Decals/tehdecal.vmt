@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/tehdecal"
+	"$surfaceprop" "Brick"
+	"$surfaceprop2" "Rock"
+	"$translucent" 1
+}

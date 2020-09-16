@@ -1,0 +1,4 @@
+"UnlitGeneric" 
+{ 
+"$basetexture" "neon/red"  "$selfillum" 1 
+} 

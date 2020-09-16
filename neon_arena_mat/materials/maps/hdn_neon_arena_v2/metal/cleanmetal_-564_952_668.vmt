@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/CLEANMETAL.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/hdn_neon_arena_v2/c-564_952_668"
+	}
+}

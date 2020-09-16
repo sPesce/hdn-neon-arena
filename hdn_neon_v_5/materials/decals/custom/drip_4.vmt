@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "Decals/custom/drip_4"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+}

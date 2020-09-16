@@ -1,0 +1,9 @@
+"patch"
+{
+	"include"		"materials/GLASS/GLASSWINDOWBREAK070A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/hdn_neon_v_5/c0_1_-195"
+		"$crackmaterial"		"maps/hdn_neon_v_5/glass/glasswindowbreak070b_0_1_-195"
+	}
+}

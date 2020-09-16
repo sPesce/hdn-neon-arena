@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/METAL/CITADEL_METALWALL076A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/hdn_neon_arena_v2/c-952_-220_456"
+	}
+}

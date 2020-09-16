@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/glass/glasswindowbreak070b.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/hdn_neon_arena_v2/c512_512_-256"
+		"Proxies"
+		{
+		}
+	}
+}

@@ -1,0 +1,186 @@
+
+
+
+materialPath: X:\Steam\steamapps\sourcemods\hidden\materials
+Loading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_5_a_1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_marine_spawn (1897.00 -392.00 -699.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0, 1040.0, 188.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0, 1040.0, -776.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0, 1552.0, -294.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0, 1536.0, -294.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0, 2048.0, -294.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0, 512.0, -776.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0, 510.0, -702.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0, 1022.0, -702.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 66 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day01_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day01_01rt"
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (227637 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1264 texinfos to 755
+Reduced 154 texdatas to 147 (7639 bytes to 7465)
+Writing x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_5_a_1.bsp
+1 second elapsed
+
+
+
+8 threads
+reading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_5_a_1.bsp
+reading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_5_a_1.prt
+LoadPortals: couldn't read x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_5_a_1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[18 texlights parsed from 'lights.rad']
+
+Loading x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_5_a_1.bsp
+No vis information, direct lighting only.
+2965 faces
+248020 square feet [35714904.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+1673 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0050 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+1346 of 1667 (80% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  15/1024          720/49152    ( 1.5%) 
+brushes                545/8192         6540/98304    ( 6.7%) 
+brushsides            4809/65536       38472/524288   ( 7.3%) 
+planes                3348/65536       66960/1310720  ( 5.1%) 
+vertexes              5759/65536       69108/786432   ( 8.8%) 
+nodes                 1013/65536       32416/2097152  ( 1.5%) 
+texinfos               755/12288       54360/884736   ( 6.1%) 
+texdata                147/2048         4704/65536    ( 7.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2965/65536      166040/3670016  ( 4.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2287/65536      128072/3670016  ( 3.5%) 
+leaves                1029/65536       32928/2097152  ( 1.6%) 
+leaffaces             3630/65536        7260/131072   ( 5.5%) 
+leafbrushes            829/65536        1658/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            24544/512000      98176/2048000  ( 4.8%) 
+edges                14613/256000      58452/1024000  ( 5.7%) 
+LDR worldlights       1673/8192       147224/720896   (20.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            292/32768        2920/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5325/65536       10650/131072   ( 8.1%) 
+cubemapsamples          50/1024          800/16384    ( 4.9%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     1422364/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       65085/393216   (16.6%) 
+LDR leaf ambient      1029/65536       24696/1572864  ( 1.6%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      551070/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      227637/4194304  ( 5.4%) 
+==== Total Win32 BSP file data space used: 3221850 bytes ====
+
+Total triangle count: 8914
+Writing x:\steam\steamapps\sourcemods\hidden\maps\vmf\hdn_neon_5_a_1.bsp
+57 seconds elapsed

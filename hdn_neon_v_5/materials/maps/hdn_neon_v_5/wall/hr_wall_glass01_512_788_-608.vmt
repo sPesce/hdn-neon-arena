@@ -1,0 +1,9 @@
+"patch"
+{
+	"include"		"materials/WALL/HR_WALL_GLASS01.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/hdn_neon_v_5/c512_788_-608"
+		"$crackmaterial"		"maps/hdn_neon_v_5/glass/glasswindowbreak070b_512_788_-608"
+	}
+}
