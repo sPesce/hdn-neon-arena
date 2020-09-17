@@ -10,4 +10,4 @@ Green/Blue glass squares are heavy, very easy to phys-kill with, good for inital
 
 demo:
 [watch demo](https://www.linkedin.com/posts/steve-pesce_i-found-a-map-that-i-created-for-hiddensource-activity-6708802651934494720-ogA2) | [map download](https://github.com/sPesce/hdn-neon-arena/blob/master/hdn_neon_v_5.bsp)
-![screen1](https://github.com/sPesce/hdn-neon-arena/blob/pics/pic1.png)
+![screen1](https://github.com/sPesce/hdn-neon-arena/blob/master/pics/1.png)
